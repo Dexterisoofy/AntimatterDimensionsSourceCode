@@ -14,7 +14,7 @@ export default {
   computed: {
     sliderProps() {
       return {
-        min: 33,
+        min: 1,
         max: 200,
         interval: 1,
         width: "100%",
