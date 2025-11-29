@@ -52,8 +52,8 @@ export function getTickSpeedMultiplier() {
     galaxies *= Pelle.specialGlyphEffect.power;
     return DC.D0_01.clampMin(baseMultiplier - (galaxies * perGalaxy));
   }
-  let baseMultiplier = 0.6;
-  if (NormalChallenge(5).isRunning) baseMultiplier = 0.63;
+  let baseMultiplier = 0.4;
+  if (NormalChallenge(5).isRunning) baseMultiplier = 0.43;
   galaxies -= 2;
   galaxies *= effects;
   galaxies *= getAdjustedGlyphEffect("cursedgalaxies");
